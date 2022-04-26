@@ -1,0 +1,35 @@
+@media (max-width: 807px) {
+    .header-container{
+        flex-direction: column;
+    }
+
+    .header-container nav{
+        margin-top: 20px;
+    }
+
+    .header-container nav ul{
+        display: block;
+        text-align: center;
+    }
+
+    .header-container nav ul li{
+        margin: 30px;
+    }
+
+    .header-container nav ul li a{
+        font-size: 2.5em;
+        padding: 15px;
+    }
+
+    .hero-container{
+        flex-direction: column;
+    }
+
+    .hero-container .hero-text{
+        text-align: center;
+    }
+
+    .hero-container .hero-text a{
+        align-self: center;
+    }
+}
